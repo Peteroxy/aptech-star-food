@@ -1569,6 +1569,10 @@ body{
     flex-direction: column;
   }
 
+  .max-lg\:items-center{
+    align-items: center;
+  }
+
   .max-lg\:gap-10{
     gap: 2.5rem;
   }
@@ -1586,6 +1590,10 @@ body{
 
   .max-md\:w-full{
     width: 100%;
+  }
+
+  .max-md\:items-center{
+    align-items: center;
   }
 
   .max-md\:text-\[15px\]{
@@ -1649,6 +1657,10 @@ body{
 
   .max-sm\:flex-col{
     flex-direction: column;
+  }
+
+  .max-sm\:items-center{
+    align-items: center;
   }
 
   .max-sm\:justify-center{
