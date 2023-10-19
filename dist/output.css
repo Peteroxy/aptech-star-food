@@ -978,6 +978,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .resize{
   resize: both;
 }
@@ -1434,6 +1438,10 @@ body{
   --color-text: #81AFDD;
   --color-subtext: #FF8A71;
   --color-div:linear-gradient(90deg, #FFFF00 0%, #FF8A71 100%);
+}
+
+.last\:mt-5:last-child{
+  margin-top: 1.25rem;
 }
 
 .hover\:bg-red-400:hover{
