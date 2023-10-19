@@ -29,30 +29,6 @@ var swiper = new Swiper(".slide-container", {
     prevEl: ".swiper-button-prev",
   },
 
-  // breakpoints: {
-  //   0: {
-  //     slidesPerView: 1,
-
-  //   },
-  //   320: {
-  //     slidesPerView: 1,
-  //   },
-  //   375: {
-  //     slidesPerView: 1,
-  //   },
-  //   425: {
-  //     slidesPerView: 1,
-  //   },
-  //   520: {
-  //     slidesPerView: 1,
-  //   },
-  //   768: {
-  //     slidesPerView: 1,
-  //   },
-  //   1024: {
-  //     slidesPerView: 2,
-  //   },
-  // },
   breakpoints: {
     1024: {
       slidesPerView: 4,
@@ -63,7 +39,7 @@ var swiper = new Swiper(".slide-container", {
       spaceBetween: 16,
     },
     0 : {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 10,
     }
   },
