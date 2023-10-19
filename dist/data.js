@@ -475,9 +475,9 @@ document.getElementById('motion').innerHTML = cerealsProduct.map((items) =>
             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
             <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
                    
-            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class=' mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
+            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class=' max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
-            "<p onclick='addtocart("+JSON.stringify(items)+")'  class=' mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
+            "<p onclick='addtocart("+JSON.stringify(items)+")'  class=' mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] max-sm:w-[6rem] rounded-full text-[14px] '>Add to cart</p>"+
        ` </div>`
     )
     
@@ -502,9 +502,9 @@ document.getElementById('motion2').innerHTML = proteinProduct.map((items) =>
             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
             <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
                    
-            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class=' mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
+            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class=' max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
-            "<p onclick='addtocart("+JSON.stringify(items)+")'  class=' mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
+            "<p onclick='addtocart("+JSON.stringify(items)+")'  class=' mt-5 text-white bg-red-400 p-2 max-sm:w-[6rem] font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
        ` </div>`
     )
     
@@ -529,9 +529,9 @@ document.getElementById('motion3').innerHTML = spicesProduct.map((items) =>
             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
             <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
                    
-            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class=' mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
+            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class=' max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
-            "<p onclick='addtocart("+JSON.stringify(items)+")'  class=' mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
+            "<p onclick='addtocart("+JSON.stringify(items)+")'  class=' mt-5 max-sm:w-[6rem] text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
        ` </div>`
     )
     
@@ -557,9 +557,9 @@ document.getElementById('motion4').innerHTML = fruitsProduct.map((items) =>
             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
             <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
                    
-            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class=' mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
+            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class='max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
-            "<p onclick='addtocart("+JSON.stringify(items)+")'  class=' mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
+            "<p onclick='addtocart("+JSON.stringify(items)+")'  class=' mt-5 max-sm:w-[6rem] text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
        ` </div>`
     )
     
@@ -584,9 +584,9 @@ document.getElementById('motion5').innerHTML = oilProduct.map((items) =>
             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
             <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
                    
-            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class=' mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
+            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class=' max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
-            "<p onclick='addtocart("+JSON.stringify(items)+")'  class=' mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
+            "<p onclick='addtocart("+JSON.stringify(items)+")'  class=' max-sm:w-[6rem] mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
        ` </div>`
     )
     
@@ -611,9 +611,9 @@ document.getElementById('motion6').innerHTML = flourProduct.map((items) =>
             <span class="bg-red-500 w-[5rem] h-1 justify-center items-center text-center"></span>
             <img id="small" src=${image} alt="oatmeal" class="small-img w-[15rem]  mt-24  ">
                    
-            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class=' mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
+            <p id='charge' onClick='logger("${image}","${name}","${price}","${description}")' class=' max-sm:w-[6rem] mt-5 text-black bg-white p-2 font-bold w-[10rem] rounded-full text-[14px] invisible group-hover:visible transition ease-in-out duration-3000 delay-1000'>View Details</p>`+
        
-            "<p onclick='addtocart("+JSON.stringify(items)+")'  class=' mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
+            "<p onclick='addtocart("+JSON.stringify(items)+")'  class=' max-sm:w-[6rem] mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] '>Add to cart</p>"+
        ` </div>`
     )
     
@@ -634,7 +634,7 @@ function createModal() {
     modal.innerHTML = mainDivContent.map((items) => {
         var { image, name, description, price } = items;
         return `
-            <div class="w-[400px] mt-3 h-[500px] max-sm:w-full bg-white justify-center items-center text-center flex flex-col shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent rounded-[3rem]"
+            <div class="w-[400px] mt-3 h-[500px] max-sm:w-[200px]  bg-white justify-center items-center text-center flex flex-col shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent rounded-[3rem]"
                 >
                 <div class="object-contain mt-50">
                     <img id="mainImg" src=${image} alt="" class="rounded-full object-cover">
@@ -643,7 +643,7 @@ function createModal() {
                     <button id="mainPrice" class="mt-5 text-white bg-red-400 p-2 font-bold w-[10rem] rounded-full text-[14px] transition ease-in-out duration-3000 delay-1000">$ ${price}</button>
                 </div>
             </div>
-            <div class="w-[400px] mt-3 h-[500px] max-sm:w-full bg-white justify-center items-center text-center rounded-[3rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent"
+            <div class="w-[400px] mt-3 h-[500px] max-sm:w-[200px] bg-white justify-center items-center text-center rounded-[3rem] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] bg-transparent"
                 >
                 <div class="group flex flex-col justify-center items-center text-center">
                     <h2 id="mainName" class="font-bold text-black text-[20px] mt-3 group-hover:text-red-400">${name}</h2>
@@ -661,8 +661,8 @@ function createModal() {
                         <br>${description}
                         <br>
                         "</i></p>
-                    <div class="text-right mt-4">
-                        <button id='modalCloseButton' class='w-full z-50 py-2 bg-red-400 text-white font-bold rounded-lg hover-bg-red-500'>Close</button>
+                    <div class=" mt-4 max-sm:w-[150px] max-sm:ml-5 justify-center items-center text-center">
+                        <button id='modalCloseButton' class='w-full justify-center items-center text-center z-50 py-2 bg-red-400 text-white font-bold rounded-lg hover-bg-red-500'>Close</button>
                     </div>
                 </div>
             </div>
