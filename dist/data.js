@@ -459,10 +459,7 @@ let cerealsProduct = product.filter(function (items) {
 })
 
 
-
-
 let i = 0;
-
 
 document.getElementById('motion').innerHTML = cerealsProduct.map((items) =>
 {
@@ -673,10 +670,6 @@ function createModal() {
 }
 
 createModal();
-
-// Your logger, openModal, closeModal, and event listeners should remain as they are in your code.
-
-
 // Add the modal HTML to your page
 document.body.insertAdjacentHTML("beforeend", createModal());
 
